@@ -1,6 +1,6 @@
 {
   "name": "@jeremysnr/snug-anthropic",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "snug for the Anthropic SDK. Fit messages into a token budget with automatic tool_use/tool_result pair handling.",
   "keywords": [
     "llm",
@@ -11,11 +11,19 @@
   ],
   "license": "MIT",
   "author": "Jeremy Smith",
+  "homepage": "https://github.com/JeremySNR/snug-anthropic#readme",
+  "bugs": {
+    "url": "https://github.com/JeremySNR/snug-anthropic/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JeremySNR/snug-anthropic.git"
   },
   "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -36,7 +44,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@jeremysnr/snug": "^0.1.0",
+    "@jeremysnr/snug": "^0.2.0",
     "tiktoken": "^1.0.22"
   },
   "peerDependencies": {
