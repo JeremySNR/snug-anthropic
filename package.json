@@ -44,7 +44,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@jeremysnr/snug": "^0.2.0",
+    "@jeremysnr/snug": ">=0.1.0 <0.3.0",
     "tiktoken": "^1.0.22"
   },
   "peerDependencies": {

@@ -23,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - The encoder is cached for the life of the module instead of being created and freed on every `fitMessages()` call.
 - `MESSAGE_OVERHEAD` is renamed `APPROX_MESSAGE_OVERHEAD` and documented as a rough per-message allowance. The README no longer implies exact Anthropic token counts: counts are tiktoken estimates, and the `count_tokens` endpoint is the route to exact figures.
-- Requires `@jeremysnr/snug` ^0.2.0.
+- Accepts `@jeremysnr/snug` 0.1.x or 0.2.x (`>=0.1.0 <0.3.0`). Nothing here needs the 0.2.0 additions yet.
 
 ## [0.1.1] - 2026-04-06
 
